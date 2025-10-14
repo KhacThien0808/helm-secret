@@ -1,8 +1,8 @@
-replicaCount: 1
+-----BEGIN PGP MESSAGE-----
 
-image:
-  repository: nginx
-  pullPolicy: IfNotPresent
-  tag: "1.21.6"
-
-mySecretPassword: "default-password"
+hF4Du0ZYmWVSgiQSAQdAeotZhk5FokP7SSYZxeU3zY9HaFgiGuOHtvgxYMGw0gYw
+WTiUktMBMGuj9MPv1EC3pMT3fbbgnHmZHAvusVwfszc924xFMoqIWCjY9PthAYC5
+1FABCQIQDC7tPRbEIG0jLNTqUOgREEHtvGBfPoQoT0kWEH87rEysDZJ7yH6CyEZK
+6vz7lgPGmtGNvo7dl9hr+y4ZwmjBTaHK/nfxG66fMEGt5Q==
+=homA
+-----END PGP MESSAGE-----
