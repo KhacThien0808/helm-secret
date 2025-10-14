@@ -1,0 +1,8 @@
+echo -n 'MyVerySecurePassword123!' | kubeseal --raw \
+  --name test-app-secret \
+  --namespace sealed-secret-demo \
+  --controller-name seal-secret-sealed-secrets \
+  --controller-namespace devops
+
+
+age1afayjd6eqzptn65c6cx52djldxyerw77mulk6372s720f60624aqljhdyf

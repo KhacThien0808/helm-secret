@@ -1,0 +1,7 @@
+# simple-sealed-chart/Chart.yaml
+apiVersion: v2
+name: simple-sealed-chart
+description: Simple chart
+type: application
+version: 0.1.0
+appVersion: "1.16.0"
