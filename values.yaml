@@ -1,11 +1,24 @@
------BEGIN PGP MESSAGE-----
+replicaCount: ENC[AES256_GCM,data:1Q==,iv:eDBcxG2qzfJekfHFC9jQe7QNyGNqGE4WlSPxuiYCqg4=,tag:7GlmB0EV2mzySYjVtAupVA==,type:int]
+image:
+    repository: ENC[AES256_GCM,data:d7ZS+50=,iv:xJo5fqG/7xB6jI7jH5C+eHpr5xhvdRhlxPdjEE5Db/U=,tag:YjlLrn5PFnpFnNALCYJBww==,type:str]
+    pullPolicy: ENC[AES256_GCM,data:6Kf7Y5n5DXvBddOZ,iv:jMaJp7dP+j5LOpA/6m5jGjEnaLm5h/vx5G9OO1Q7qNw=,tag:VnQjaoaqLqCOhFGSH6hKZg==,type:str]
+    tag: ENC[AES256_GCM,data:BeiMCgzP,iv:W5223lM83gIVWD0Yx+IwmLMXsoWXV/Dcd+ohPFr76iA=,tag:BM3XF29teiNIGauoRexGyw==,type:str]
+mySecretPassword: ENC[AES256_GCM,data:y5NFKDZo/tFwXIoRXwqXog==,iv:GPaiiMRU4ASw2UEW3SqTmFj9dROWypCUi5TQBitq0ds=,tag:PleHJMSHEF78oE4Rn4yH+w==,type:str]
+sops:
+    lastmodified: "2025-10-15T02:43:41Z"
+    mac: ENC[AES256_GCM,data:fJwAaXIgOP5oKus07OhFX+QSYk2efWm7hBH9ecs2HYEHg7HRpSE0aPjpkUahU61jEqwy1RHFHb1EtKOpEtNqbwtc3iLFhU2py7dPzy4v8tnAHbdZRHv6A9eBQgW0G5PUHxsyrFSWA/4x5wEYIPY2yZuQYYAY8hXye6ZMRzLZ0VA=,iv:REKwoYgJXRHKOYxMSDesJvEmXZs6+qQ6TQ6LRpMjmI4=,tag:m1f4gFXZ87GtTmQmWtI5QA==,type:str]
+    pgp:
+        - created_at: "2025-10-15T02:43:41Z"
+          enc: |-
+            -----BEGIN PGP MESSAGE-----
 
-hF4D+4ln9+WM80cSAQdAC/w6gL2qS36wYfxAAgzL2Zq+wqiqCHVhu3yaE/6JySAw
-o+VD61tNtzc1hoJ4v+HouTuP9REuyge3OQ9kBpgYgP6d1FSDaXsWZrVl+X2Gih+0
-1L8BCQIQmYMG3Gy8Attc2wuQxTgOOId0L6HN2tDoXsq/E22Bc4LzbgFOdl30+fW1
-nOqhtEhvZPONgsaZpAKrAg/lOPYJS1hbq3W/ggFapxGx7rWY7wUdD+Y1R4qekfcS
-77FbgcTaDqZr0JXnDYmkm2bd8TUYi8EXk+RCsge2fZIsA82J8zPeVAIyV2lYPg3u
-u7eBrs62Nf+B8s0QcjBvejKz/uOJAtz3RSebMC2zpJXbNrp/5oQqmObocmwjp0uU
-Tw==
-=ix8b
------END PGP MESSAGE-----
+            hF4Die1TwRP9nhMSAQdAsshItYFcEPlh3lJ1FKeV7C4jtESPegnsngpwVjHnRQ8w
+            /dzUG278PfMxqjjrrpkLb87l8OygIpcNi+RVBtrs+7jm0tUPMTDweaEgPnBv67SD
+            1GgBCQIQ+c2STp3NjAMYvDaYBfkyXeZ4JtM1JpBySGOkgg5+7rxK9aEd3HXWzk2f
+            c+lAUtYXZH7xEFcGLhyL7PxrS6qHoNLggAYq2YZDZdbDZrO76PrIZhC4qHEic1f/
+            o5w8s7c71FBTRw==
+            =0i/4
+            -----END PGP MESSAGE-----
+          fp: D69442E1D7BDBC20BD58C7A60F1532BBE98EA667
+    unencrypted_suffix: _unencrypted
+    version: 3.11.0
