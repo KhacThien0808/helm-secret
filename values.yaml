@@ -1,24 +1,25 @@
-replicaCount: ENC[AES256_GCM,data:UQ==,iv:tFQpjPYVcI8HvvUu5OovzbExtOrEw4N1/UYT84r6jVc=,tag:d1ziTFTBTmYjv9Pp5zWYyA==,type:int]
+# values.yaml
+replicaCount: 1
 image:
-    repository: ENC[AES256_GCM,data:7RUbB+k=,iv:73W6zx3RlSm79nMUsMO001gxT1GxzOJ+97Dffl8vZbM=,tag:5mcOpsdqaG9MJxIjCGajnw==,type:str]
-    pullPolicy: ENC[AES256_GCM,data:mp7epc2PPN+53LKG,iv:pdy78KaCf5MkzAbhylN6xEsM4XoYaTyt7T027WGBdL0=,tag:bjNSlw1it2Cg8eaWEVi2Ig==,type:str]
-    tag: ENC[AES256_GCM,data:unG3cS8Q,iv:XbEPLPYqMlrFIsG1ezo9o9y0qHd8mNX44yY7ZoaGWNE=,tag:HDIvAjNwvQWpNaXfPWPDCQ==,type:str]
-mySecretPassword: ENC[AES256_GCM,data:5iUkSJ9x0pSeT9LHDV/84g==,iv:Sz0lvKie0Y6XNatpjyfpvejvqOdXm0aGi8GZSIj9Ct0=,tag:h/q+OIeub3TX/eKWZgwRZw==,type:str]
+    repository: nginx
+    pullPolicy: IfNotPresent
+    tag: 1.21.6
+mySecretPassword: ENC[AES256_GCM,data:+JvLri9zN9f1FQf4AUpK9g==,iv:EpyQuy4kxjhm/hjX1KTr3AYkY6cxE3tNWtqHIUvYU6E=,tag:fJFMwX3n4wpKuU0RxTryYw==,type:str]
 sops:
-    lastmodified: "2025-10-15T03:19:08Z"
-    mac: ENC[AES256_GCM,data:Cdl4k66cutkD2URSCE25TLddJXs3HOJjoJt2oVa+M0mp/Jwjf/pj0oa7Ucx7v7FcAis681an3eCMERIK3hHEskGqG02WxF2gKh+38Pqy4ykE1erQOmbHeAiyl+Kx4CsE9n+VlJpTJZlr2D8jBxLH45qTW7o2fAsNOeshzRP1bG4=,iv:u3oCCmGUnlTixLzJVedPV6o/rjZK96G/VKAz3Ix9MN8=,tag:BiGIw5jxRIIp/vhvxGGPoQ==,type:str]
+    lastmodified: "2025-10-15T03:23:45Z"
+    mac: ENC[AES256_GCM,data:J+mzvCiIcAhUWGpizQHXgwKh7isI/axg/fdmIXmTw/IjGp16zwZcChXz/uRtxa4iZGJ6fAkuH51jGiRiCDN6NaiKfREpF75hqCmmC09kNJO3B7xbVbaWm1ggIlQeH5fXdJivgaEntH1rdNmFBWxYeGmXbT1mNY82dltRPD5Iob8=,iv:HaeUVXvYH2f+TtB5Cu/klPVZER2MzQuOVY8n12qsg/g=,tag:9bGRdE7i7iUVRNdG/WRocw==,type:str]
     pgp:
-        - created_at: "2025-10-15T03:19:08Z"
+        - created_at: "2025-10-15T03:23:45Z"
           enc: |-
             -----BEGIN PGP MESSAGE-----
 
-            hF4DHICC/VIf2eASAQdAnuy0fp5cGfM8vBV3CwvfrL4DvMQMBpk76ME98a+PU1ww
-            oMHgtKQTg8QP1YptQfETN8XR5F8XK12T3ehPc1h5txhpSjEdMHU30mZFnFQ+bQl3
-            1GgBCQIQuo016VjRMbrZklrk5qyPlRPXyVU9OTsSHnQCKGDEIE4pfMVAjv6tcUVO
-            zU+rQjEk9LhYxivZFz2T6t8gRrvb9Jf2B7YxkAtNhPYhk6sxTjOWqKYUu/iG3KgW
-            q+jwTyXSzG7olA==
-            =92zT
+            hF4DHICC/VIf2eASAQdAa2Yhb5qTmzrX9pHNU0IgmnDovWfJl/CoM1Lk6vBk9mMw
+            9++W0NOXoWlEPE+ooaWtDw2tFzt+Q6TQz94ntMfcH5bFquzA5nmbtJKbw7Qzq86i
+            1GgBCQIQ3+zg0+uDgPTyG3Si+DJW3jYbos3p4zv+P7Hlach45We6p63LT79xE1Eh
+            sTdqri2J9c9tLgDqM2z8pX8GZhKoTbTsydgDDnF50UKkn0AtyUbd7MGh5UxiTMrR
+            ZzG97+9BAQTJtQ==
+            =VrLq
             -----END PGP MESSAGE-----
           fp: 7E379DCF9EB4EF47B7396B37F75F5CA1FB03EDE9
-    unencrypted_suffix: _unencrypted
+    encrypted_regex: ^(mySecretPassword)$
     version: 3.11.0
